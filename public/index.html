@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <style>
+        @import url("https://use.typekit.net/bxe4eqh.css");
+      </style>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.typekit.net/bxe4eqh.css" type="text/css">
+    <link rel="stylesheet" href="/src/Overrides.css" type="text/css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Skjn</title>
+  </head>
+  <body>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+<script src="jquery.localscroll.js" type="text/javascript"></script> 
+<script src="jquery.scrollTo.js" type="text/javascript"></script> 
+    <script type="text/javascript">
+      $(document).ready(function() {
+         $('#footer').localScroll({duration:8000});
+      });
+      </script>
+      <script crossorigin src="https://unpkg.com/react-transition-group@2.2/dist/react-transition-group.js"></script>
+      <script>window.ReactTransitionGroup || document.write('<script crossorigin src="../../../node_modules/react-transition-group/dist/react-transition-group.js"><\/script>')</script>
+   
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+1
+2
+3
+
+  </body>
+</html>
